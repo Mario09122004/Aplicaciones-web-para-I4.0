@@ -1,0 +1,7 @@
+/node_modules
+git init
+git remote add origin
+git add .
+git commit -m "Initial commit"
+git branch -M develop//crear rama
+git push origin develop
