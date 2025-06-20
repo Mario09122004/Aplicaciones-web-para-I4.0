@@ -1,11 +1,5 @@
 import { Form, Input, Button } from "antd";
-import React from "react";
 
-//usuario, rol, producto, ordenes
-/*
-    coleccion menu
-    endopoint rutas
-*/
 function UserForm() {
     const [form] = Form.useForm();
     const title = "User Form";
@@ -47,12 +41,3 @@ function UserForm() {
 }
 
 export default UserForm;
-
-
-/*
-* 1.-CRUD completo de productos
-* (create, delete(stattus)m update y getAll)
-* 2.-Modificar modelo de usuario para recibir arreglo de roles
-* martes 17 junio
-
-*/
